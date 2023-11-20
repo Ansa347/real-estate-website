@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+#bcard:hover{
+    box-shadow: 0px 0px 20px 8px  #004274;
+    
+}
+#bcards:hover{
+    box-shadow: 0px 0px 20px 8px  #004274;
+    
+}
+/*Navigation bar*/
+#logo0{
+    display: flex;
+}
+#logo1{
+    
+    display: flex;
+    flex-direction: column;
+}
+#logoheading{
+    margin-top: -7%;
+}
+#navigation{
+    background-color: #004274;
+    height: 80px;
+    
+}
+nav a{
+    color: white;
+    font-family: ui-sans-serif;
+}
+/*section 1*/
+.mainback{
+    padding-top: 7%;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: #004274;
+    margin-left: 30%;
+}
+.box{
+    margin-top: 7%;
+}
+.service{
+    font-weight: 400;
+    font-size: 70px;
+}
+#icon1{
+    color: white;
+    margin-left: 29%;
+    margin-top: 20%;
+    font-size: 50px;
+}
+#icon2{
+    color: white;
+    margin-left: 25%;
+    margin-top: 20%;
+    font-size: 50px;
+}
+#icon3{
+    color: white;
+    margin-left: 19%;
+    margin-top: 20%;
+    font-size: 50px;
+}
+#icon4{
+    color: white;
+    margin-left: 23%;
+    margin-top: 20%;
+    font-size: 50px;
+}
+/*section 2*/
+#bicon{
+    margin-left: 40%;
+    font-size: 50px;
+    color: #004274;
+}
+#bcards{
+    box-shadow: 0px 0px 15px 5px lightgray;
+    width: 40%;
+}
+#bcard{
+    box-shadow: 0px 0px 15px 5px lightgray;
+    width: 20%;
+}
+.s2{
+    margin-top: 8%;
+    padding-left: 12%;
+}
+.s3{
+    margin-top: 4%;
+    padding-left: 8%;
+}
+.box1{
+    margin-top: 5%;
+}
+.box2{
+    margin-top: 6%;
+}
+.box3{
+    margin-top: -1%;
+}
+.box4{
+    margin-top: -10%;
+}
+/*section 3----------------*/
+.iconci{
+    height: 100px;
+    width: 100px;
+    background-color: #004274;
+    margin-left: 30%;
+}
+#iconcii{
+    padding-top: 16%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+}
+/*Footer------------------*/
+footer{
+    height: 480px;
+    width: 100%;
+    /*background-color: aqua;*/
+  }
+  footer ul li{
+    list-style: none;
+  }
+  footer ul li a{
+    color: #9B9B9B;
+  }
+  footer p{
+    color: #9B9B9B;
+  }
+  #fbox{
+    /*background-color: plum;*/
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+  }
+  #lbox{
+    background-color: lightgray;
+    height: 10%;
+    
+  }
+  @media only screen and (max-width:991px) {
+    #logo0{
+        margin-top: -10%;
+       }
+       .btnmar{
+        margin-right: 12%;
+        border: 1px solid white;
+        margin-top: -2%;
+        width: 80px;
+       }
+       .btnic{
+        border: 1px solid white;
+        width: 70px;
+        margin-left: -15%;
+        border-radius: 4px;
+        padding-top: 2px;
+       }
+       #navbarNav{
+        background-color: #004274;
+        margin-top: -1.50%;
+        margin-left: -1.50%;
+       }
+       #list a{
+        margin-left: 12%;
+       }
+       /*-----------------------*/
+       .box{
+        margin-top: 0%;
+       }
+       .bcard3{
+        margin-top: 6%;
+        margin-left: 25%;
+       }
+       .bcard4{
+        margin-top: 6%;
+        margin-left: 30%;
+       }
+       .box4{
+        margin-left: 46%;
+        margin-top: -23%;
+       }
+       .box2{
+        margin-top: 25%;
+        margin-left: -5%;
+       }
+  }
+  @media only screen and (max-width: 767px){
+    .circle{
+        margin-left: 40%;
+    }
+    .bcard1{
+        margin-left: -4%;
+    }
+    .bcard2{
+        margin-left: -4%;
+        margin-top: 7%;
+    }
+    .bcard3{
+        margin-left: -4%;
+        margin-top: 7%;
+    }
+    .bcard4{
+        margin-left: -4%;
+        margin-top: 7%;
+    }
+    .bcard5{
+        margin-left: -4%;
+        margin-top: 7%;
+
+    }
+    .bcard6{
+        margin-left: -4%;
+    }
+    .box2{
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    .box3{
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    .box4{
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    .iconci{
+        margin-left: 36%;
+    }
+  }
+  @media only screen and (max-width: 575px){
+    .bcard1{
+        margin-left: 22%;
+    }
+  }

@@ -1,0 +1,559 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden; /* Add this line to hide horizontal overflow */
+
+}
+  /*Navigation bar*/
+#logo0{
+    display: flex;
+}
+#logo1{
+    
+    display: flex;
+    flex-direction: column;
+}
+#logoheading{
+    margin-top: -7%;
+}
+#navigation{
+    background-color: #004274;
+    height: 80px;
+    width: 100%;
+    margin-right: 5%;
+}
+nav a{
+    color: white;
+    font-family: ui-sans-serif;
+}
+/*#list{
+    margin-left: 3%;
+    margin-right: 5%;
+
+}*/
+/*#navbarNav {
+    display: flex;
+justify-content: center;
+
+}*/
+   /*Section 1*/
+/*#background{
+    color: white;
+    width: 100%;
+    height: 635px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(89, 89, 89,0.4),rgba(89, 89, 89, 0.4)), url(images/3d\ apartment\ design.jpg);
+
+}*/
+#backgroundimg{
+  height:635px ;
+  width: 100%;
+  margin-top: 50%;
+  margin-top: 10%;
+}
+#backgroundtxth1{
+    padding-top: 13%;
+    padding-left: 26%;
+    padding-right: 28%;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+}
+#backgroundtxth2{
+  padding-top: 13%;
+  padding-left: 32%;
+  padding-right: 28%;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+}
+#backgroundtxth2s{
+  padding-left: 31%;
+  padding-right: 24%;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+}
+#backgroundtxth3{
+  padding-top: 13%;
+  padding-left: 31%;
+  padding-right: 28%;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+}
+#backgroundtxth3 span{
+  padding-left: 14%;
+
+}
+#backgroundtxth1 span{
+  /*padding-top: 13%;
+  padding-left: 26%;
+  padding-right: 28%;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;*/
+  padding-left: 5%;
+}
+#backgroundtxtp1{
+  font-weight: 400;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: white;
+}
+#backgroundtxtp2{
+  font-weight: 400;
+  padding-left: 28%;
+  padding-right: 23%;
+  color: white;
+}
+#backgroundtxtp3{
+  font-weight: 400;
+  padding-left: 29%;
+  padding-right: 25%;
+  color: white;
+}
+#backgroundtxtb1{
+  margin-left: 42%;
+}
+#backgroundtxtb2{
+  margin-left: 42%;
+}
+#backgroundtxtb3{
+  margin-left: 42%;
+}
+#images1{
+ background-image: linear-gradient(rgba(89, 89, 89,0.4),rgba(89, 89, 89, 0.4)), url(images/3d\ apartment\ design.jpg);
+  height: 610px;
+  width: 100%;
+  background-size: cover;
+
+}
+#images2{
+ background-image: linear-gradient(rgba(89, 89, 89,0.4),rgba(89, 89, 89, 0.4)), url(images/3d-modern-commercial-buildings-2K-wallpaper.jpg);
+  height: 610px;
+  width: 100%;
+  background-size: cover;
+ background-position: center;
+}
+#images3{
+ background-image: linear-gradient(rgba(89, 89, 89,0.4),rgba(89, 89, 89, 0.4)), url(images/architecture-building-business-302769.jpg);
+ height: 610px;
+  width: 100%;
+  background-size: cover;
+ background-position: center;
+}
+      /*Section 2*/
+ #section2{
+    /*background-color: aquamarine;*/
+    width: 100%;
+    height: 650px;
+ }
+ #section2 h1{
+  margin-top: 5%;
+ }
+ #para{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 2%;
+ }
+ /*#span3 i{
+    font-style: oblique;
+    text-align-last: right;
+ }*/
+ #icon1{
+  padding-left: 2%;
+ }
+ #icon{
+  padding-left: 6%;
+ }
+ #img1{
+  height: 260px;
+ }
+  /*section 3*/
+  #section3{
+    margin-top: 5%;
+    width: 100%;
+    height: 800px;
+    /*background-color: aqua;*/
+  }
+  #s3div1{
+    width: 100%;
+    height: 30%;
+  }
+  #backimg{
+    background-image:url(images/hero_2.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  
+  }
+  #para1{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  #txtbox{
+    margin-top: 6%;
+  }
+  #p1{
+    padding-left: 2%;
+  }
+  #p1 span{
+    padding-left: 5%;
+  }
+  #p2{
+    padding-top: 8%;
+    padding-left: 2%;
+  }
+  #p2 span{
+    padding-left: 5%;
+  }
+  #p3{
+    padding-top: 8%;
+    padding-left: 2%;
+  }
+  #p3 span{
+    padding-left: 5%;
+  }
+  #s3div2{
+    width: 100%;
+    height: 60%;
+    /*background-color: aquamarine;*/
+  }
+  #box3{
+    width: 100%;
+    height:10%;
+    margin-top: 4%;
+  }
+  #paragraph{
+    padding-left: 12%;
+  }
+  /*section 4*/
+  #section4{
+    height: 400px;
+    width: 100%;
+    background-color: lightgray;
+  }
+  #s4div1{
+    height: 100%;
+    margin-top: 2%;
+  }
+  #s4div2{
+    height: 70%;
+    background-color: lightgray;
+    margin-top: 7%;
+  }
+  #s4div2 h6 a{
+    color: black;
+  }
+  #headingh1{
+    padding-left: 10%;
+    /*padding-right: 10%;*/
+    padding-top: 15%;
+  }
+  #parah1{
+    margin-left: 14%;
+  }
+  #btnh1{
+    margin-left: 38%;
+  }
+  #image1{
+    padding-top: 10%;
+    height: 50%;
+    width: 70%;
+  }
+  #image2{
+    padding-top: 10%;
+    height: 50%;
+    width: 70%;
+  }
+  #image3{
+    padding-top: 10%;
+    height: 50%;
+    width: 70%;
+  }
+  #image4{
+    padding-top: 10%;
+    height: 50%;
+    width: 70%;
+  }
+  #onmouse{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  #onmouse:hover{
+    box-shadow: 5px 10px 7px 5px darkgray;
+    
+  }
+  #onmouse a:hover{
+    text-decoration: none;
+    color: #004274;
+  }
+  /*Footer (section 5)*/
+  footer{
+    height: 480px;
+    width: 100%;
+    /*background-color: aqua;*/
+  }
+  footer ul li{
+    list-style: none;
+  }
+  footer ul li a{
+    color: #9B9B9B;
+  }
+  footer p{
+    color: #9B9B9B;
+  }
+  #fbox{
+    /*background-color: plum;*/
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+  }
+  #lbox{
+    background-color: lightgray;
+    height: 10%;
+    
+  }
+  @media only screen and (max-width: 1100px){
+    #img1{
+      height: 217px;
+     }
+     #backgroundtxth1{
+      font-size: 60px;
+      padding-top: 16%;
+  }
+  #backgroundtxth2{
+    font-size: 60px;
+    padding-top: 15%;
+}
+#backgroundtxth2s{
+  font-size: 60px;
+}
+#backgroundtxth3{
+  font-size: 60px;
+  padding-top: 16%;
+}
+  }
+  @media only screen and (max-width: 1000px){
+    #backgroundtxth1{
+      padding-left: 24%;
+      padding-right: 24%;
+  }
+  #backgroundtxth3{
+    padding-left: 28%;
+  }
+  #fortest{
+    margin-left: -70%;
+  }
+  }
+  @media only screen and (max-width: 991px){
+   /*navigation*/
+   #logo0{
+    margin-top: -10%;
+   }
+   .btnmar{
+    margin-right: 12%;
+    border: 1px solid white;
+    margin-top: -2%;
+    width: 80px;
+   }
+   .btnic{
+    border: 1px solid white;
+    width: 70px;
+    margin-left: -15%;
+    border-radius: 4px;
+    padding-top: 2px;
+   }
+   #navbarNav{
+    background-color: #004274;
+    margin-top: -1.50%;
+    margin-left: -1.50%;
+   }
+   #list a{
+    margin-left: 12%;
+   }
+   #img1{
+    height: 157px;
+   }
+   #s4div2{
+    height: 70%;
+    margin-top: 12%;
+  }
+  #heading1{
+    padding-left: 8%;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-top: 20%;
+  }
+  #btnh1{
+    margin-left: 31%;
+  }
+  .rcard2{
+margin-left: 16%;
+  }
+  .rcard3{
+    margin-left: 31%;
+    margin-top: 6%;
+  }
+  .rimg1{
+   height: 180px;
+  }
+  .rimg2{
+    height: 180px;
+  }
+  .rimg3{
+    height: 180px;
+  }
+  #section3{
+    margin-top: 56%;
+  }
+  }
+  @media only screen and (max-width: 988px){
+    #backgroundtxth2{
+      font-size: 59px;
+    }
+    #headingh1{
+      padding-left: 8%;
+      font-weight: 500;
+      font-size: 1.75rem;
+      padding-top: 20%;
+    }
+  }
+  @media only screen and (max-width: 910px){
+    #backgroundtxth1{
+      padding-left: 21%;
+      padding-top: 20%;
+    }
+    #backgroundtxth2{
+      padding-left: 28%;
+      padding-top: 20%;
+    }
+    #backgroundtxth2s{
+      padding-left: 27%;
+    }
+    #backgroundtxth3{
+      padding-left: 25%;
+      padding-top: 20%;
+    } 
+  }
+  @media only screen and (max-width: 890px){
+    #backgroundtxth3{
+      padding-left: 24%;
+    }
+    #backgroundtxtp3 {
+      padding-left: 25%;
+    }
+  }
+  @media only screen and (max-width: 825px){
+    #section3{
+      margin-top: 62%;
+    }
+  }
+  @media only screen and (max-width: 883px){
+    #backgroundtxth2 {
+      padding-left: 27%;
+      padding-top: 17%;
+  }
+
+  }
+  @media only screen and (max-width: 877px){
+    #backgroundtxth2 {
+      padding-left: 26%;
+      padding-top: 17%;
+  }
+  #backgroundtxth2s {
+    padding-left: 25%;
+}
+
+  }
+  @media only screen and (max-width: 872px){
+    #backgroundtxth3{
+      padding-top: 22%;
+      font-size: 56px;
+    }
+  }
+  @media only screen and (max-width: 862px){
+    #backgroundtxth1 {
+      font-size: 56px;
+      padding-left: 22%;
+    }
+  }
+  @media only screen and (max-width: 845px){
+    #backgroundtxth2 {
+      font-size: 57px;
+      padding-top: 18%;
+  }
+  #backgroundtxth2s {
+    font-size: 57px;
+}
+  }
+@media only screen and (max-width: 818px){
+  #backgroundtxth1 {
+    font-size: 52px;
+  padding-top: 24%;}
+}
+@media only screen and (max-width: 818px){
+  #backgroundtxth2{
+    padding-right: 20%;
+    font-size: 55px;
+  }
+    #backgroundtxth2s {
+      font-size: 55px;
+  }
+  }
+  @media only screen and (max-width: 813px){
+    #backgroundtxth3 {
+      font-size: 54px;
+      padding-top: 22%;
+    }
+  }
+  @media only screen and (max-width: 784px){
+    #backgroundtxth3{
+      padding-right: 24%;
+      padding-left: 25%;
+      padding-top: 23%;
+    }
+  }
+  @media only screen and (max-width: 784px){
+    #backgroundtxth2s {
+      font-size: 52px;
+  }
+  }
+  @media only screen and (max-width: 767px){
+    .rcard2 {
+      margin-left: 0%;
+      margin-top: 8%;
+    }
+    .rcard3 {
+      margin-left: 0%;
+      margin-top: 8%;
+    }
+    #section3{
+      margin-top: 100%;
+    }
+  }
+  @media only screen and (max-width: 760px){
+    #backgroundtxth1 {
+      font-size: 48px;
+      padding-right: 12%;
+    }
+  }
+  @media only screen and (max-width: 738px){
+
+  }
+  @media only screen and (max-width: 712px){
+    #section3{
+      margin-top: 105%;
+    }
+    #section4{
+      margin-top: 8%;
+    }
+  }
+  

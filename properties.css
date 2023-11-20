@@ -1,0 +1,324 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+/* for hover effect*/
+#hovereffect:hover{
+    box-shadow: 0px 0px 20px 8px  #004274;
+    
+}
+.heading:hover{
+    color: #004274;
+    text-shadow: 0px 0px 10px #004274;
+  
+  }
+  
+/*for paragraphs*/
+#paragraph{
+ padding-left: 25%;
+ padding-right: 25%;
+ padding-bottom: 1%;
+}
+
+.heading{
+font-size: 70px;
+font-weight: 400;
+}
+/*Navigation bar*/
+#logo0{
+    display: flex;
+}
+#logo1{
+    
+    display: flex;
+    flex-direction: column;
+}
+#logoheading{
+    margin-top: -7%;
+}
+#navigation{
+    background-color: #004274;
+    height: 80px;
+    
+}
+nav a{
+    color: white;
+    font-family: ui-sans-serif;
+}
+
+/*section 1*/
+#backgroundimage1{
+    background-image: linear-gradient(rgba(89, 89, 89, 0.247),rgba(89, 89, 89, 0.4)), url(images/25-1.jpg);
+    width: 100%;
+    height: 250px;
+   background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 6%;
+}
+#backgroundimage2{
+    background-image: linear-gradient(rgba(89, 89, 89, 0.247),rgba(89, 89, 89, 0.4)), url(images/25-1.jpg);
+    width: 100%;
+    height: 250px;
+   background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 6%;
+}
+#backgroundimage3{
+    background-image: linear-gradient(rgba(89, 89, 89, 0.247),rgba(89, 89, 89, 0.4)), url(images/25-1.jpg);
+    width: 100%;
+    height: 250px;
+   background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 6%;
+}
+#txt1{
+    color: white;
+    padding-top: 5%;
+    margin-left: 8%;
+}
+#txt2{
+    color: white;
+    margin-left: 8%;
+}
+
+/*section 2*/
+#icon1{
+    padding-left: 2%;
+   }
+   #icon{
+    padding-left: 5%;
+   }
+   #himg1{
+    height: 222px;
+   }
+   #himg2{
+    height: 222px;
+   }
+   #himg3{
+    height: 222px;
+   }
+   #himg23{
+    height: 222px;
+   }
+   #himg4{
+    height: 222px;
+   }
+   /*ssection 3*/
+   #aimg1{
+    height: 214px;
+   }
+   #aimg2{
+    height: 214px;
+   }
+   #aimg3{
+    height: 224px;
+   }
+   /*section 4*/
+ #cimg{
+  height: 224px;
+ }  
+ /*section 5*/
+ #vimg{
+  height: 224px;
+ }
+ /*Footer (section 5)*/
+ footer{
+    height: 480px;
+    width: 100%;
+    /*background-color: aqua;*/
+  }
+  footer ul li{
+    list-style: none;
+  }
+  footer ul li a{
+    color: #9B9B9B;
+  }
+  footer p{
+    color: #9B9B9B;
+  }
+  #fbox{
+    /*background-color: plum;*/
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+  }
+  #lbox{
+    background-color: lightgray;
+    height: 10%;
+    
+  }
+  @media only screen and (max-width: 991px){
+    /*navigation*/
+    #logo0{
+      margin-top: -10%;
+     }
+     .btnmar{
+      margin-right: 12%;
+      border: 1px solid white;
+      margin-top: -2%;
+      width: 80px;
+     }
+     .btnic{
+      border: 1px solid white;
+      width: 70px;
+      margin-left: -15%;
+      border-radius: 4px;
+      padding-top: 2px;
+     }
+     #navbarNav{
+      background-color: #004274;
+      margin-top: -1.65%;
+      margin-left: -1.50%;
+     }
+     #list a{
+      margin-left: 12%;
+     }
+    /*---------------*/
+    #himg1{
+      height: 180px;
+     }
+    #himg2{
+      height: 180px;
+     }
+     #himg3{
+      height: 180px;
+     }
+     #himg21{
+      height: 180px;
+     }
+     #himg23{
+      height: 180px;
+     }
+     #himg4{
+      height: 180px;
+     }
+     .moderhmedia{
+      height: 150px;
+     }
+     #himg4{
+      height: 150px;
+     }
+     .hovereffect2{
+      margin-left: 10%;
+     }
+     .hovereffect3{
+      margin-left: 27%;
+      margin-top: 4%;
+     }
+     #img00{
+       height: 180px;
+     }
+     #vimg{
+      height: 180px;
+     }
+     #cimg{
+      height: 180px;
+     }
+     #aimg1{
+      height: 180px;
+     }
+     #aimg2{
+      height: 180px;
+     }
+     #aimg3{
+      height: 180px;
+     }
+     .hmargin{
+      margin-left: 2%;
+     }
+     .hmargin2{
+      margin-left: 2%;
+     }
+     .amargin1{
+      margin-left: 6%;
+     }
+     .amargin1{
+      margin-left: 6%;
+     }
+     .cmargin1{
+      margin-left: 6%;
+     }
+     .cmargin{
+      margin-left: 6.65%;
+     }
+     .vmargin{
+      margin-left: 6%;
+     }
+    }
+  @media only screen and (max-width: 767px){
+    .hhovereffect2{
+      margin-top: 5%;
+      margin-left: 11px;
+    }
+    .hhovereffect3{
+      margin-top: 6%;
+      margin-left: 2%;
+    }
+    .hovereffecth2{
+      margin-top: 6%;
+      margin-left: 2%;
+    }
+    .hovereffecth3{
+      margin-top: 7%;
+      margin-left: 11px;
+    }
+    .amargin1{
+      margin-left: 9%;
+    }
+    .amargin{
+      margin-left: 9%;
+    }
+    .ahovereffect2{
+      margin-top: 6%;
+    }
+    .ahovereffect3{
+      margin-top: 7%;
+      margin-left: 10%;
+    }
+    .hovereffecta2{
+      margin-top: 3%;
+    }
+    .hovereffecta3{
+      margin-top: 6%;
+      margin-left: 54px;
+    }
+    .cmargin1{
+      margin-left: 10%;
+    }
+    .chovereffect2{
+      margin-top: 5%;
+    }
+    .chovereffect3{
+      margin-top: 5%;
+      margin-left: 54px;
+    }
+    .hovereffectc2{
+      margin-top: 5%;
+    }
+    .hovereffectc3{
+      margin-top: 5%;
+      margin-left: 54px;
+    }
+    .cmargin{
+      margin-left: 10%;
+    }
+    .vmargin{
+      margin-left: 9%;
+    }
+    .hovereffectv2{
+      margin-top: 5%;
+      margin-left: 49px;
+    }
+    .hovereffectv3{
+   margin-top: 5%;
+   margin-left: 51px;
+    }
+  }
